@@ -1,0 +1,333 @@
+/* General */
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+background-color: #E5E5E5;
+
+  
+}
+.wrapper{
+  margin: 0 auto;
+  width: 1045px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(7,auto);
+
+}
+
+button{
+background: #FFFFFF;
+box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+border-radius: 100px;
+width: 131px;
+height: 39px;
+border-color: transparent;
+}
+
+
+.intro--family{
+position: relative;
+background: #C7DDEA;
+grid-column: 1/3;
+grid-row: 1/3;
+height: 544px;
+
+
+}
+
+.intro--family h1{ 
+font-family: Frank Ruhl Libre;
+font-style: normal;
+font-weight: 900;
+font-size: 45px;
+line-height: 100%;
+letter-spacing: -0.02em;
+color: #000000;
+padding-bottom: 20px;
+
+
+
+}
+.intro--family p{
+font-family: Fira Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+color: rgba(0, 0, 0, 0.6);
+padding-bottom: 20px;
+}
+
+.intro--family p span{
+  color: white;
+}
+
+.family--img{
+  position: absolute;
+  width: 286px;
+  height: 279px;
+  right: 0;
+  bottom: 0;  
+}
+
+.intro--family--content{
+width: 260px;
+padding-left: 100px;
+padding-top: 100px;
+}
+
+.learn--more{
+background: #F17949;
+text-align: center;
+grid-column: 3/5;
+grid-row: 1/2;
+height: 272px;
+}
+
+
+
+.learn--more--content, .join--today--content{
+padding-top: 100px;
+padding-bottom: 120px;
+}
+
+
+.join--today{
+background: #FAB131;
+grid-column: 3/5;
+grid-row: 2/3;
+text-align: center;
+height: 272px;
+}
+
+.navbar{
+  height: 50px;
+  grid-row: 3/4;
+  grid-column: 1/5;
+}
+
+.navbar ul{
+ list-style-type:none;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ padding-top: 15px;
+ 
+}
+
+.navbar li{
+font-family: Fira Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 100%;
+opacity: 0.4;
+
+}
+
+#home{
+  opacity: 10;
+}
+
+
+
+.content{
+  display: grid;
+  /* grid-template-rows: 3; */
+  background: #A9A19E;
+  grid-column: 1/5 ;
+  grid-row: 4/5;
+  height: 612px;
+  
+
+  
+  
+
+}
+
+.content .title--btn{
+max-width: 314px;
+margin-top: 100px;
+margin-left: 100px;
+}
+.learn--more h1, .join--today h1,
+.about h1, .content h1{
+font-family: Frank Ruhl Libre;
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 41px;
+letter-spacing: -0.02em;
+color: #FFFFFF;
+
+}
+
+.content h1{
+  padding-bottom: 50px;
+}
+.learn--more p , .join--today p{
+font-family: Fira Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 11px;
+line-height: 13px;
+letter-spacing: -0.02em;
+color: rgba(0, 0, 0, 0.5);
+}
+
+.content p{
+  
+  grid-column: 3/5;
+  padding-top: 110px;
+  max-width: 300px;
+  font-size: 14px;
+  line-height: 24px;
+  
+ 
+}
+
+.family2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  grid-column: 1/5 ;
+  grid-row: 4/5;
+  position: relative;
+  margin-top: 500px;
+  
+  
+  
+}
+
+.family2 p{
+font-family: Fira Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 11px;
+line-height: 18px;
+/* or 164% */
+text-align: center;
+color: rgba(0, 0, 0, 0.4);
+padding-top: 20px;
+max-width: 150px;
+margin: 0 auto;
+}
+
+.family--div{
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+width: 256px;
+height: 308px;
+}
+
+.img--container{
+border-radius: 4px;
+width: 200px;
+height: 150px;
+margin-left: 30px;
+
+}
+
+.family--div img{
+max-width:100%;
+max-height:100%;
+display:block;
+margin:auto;
+}
+  
+
+.about{
+
+ background: #FAB131;
+ grid-column: 1/5;
+ grid-row: 5/6;
+ height: 680px;
+ 
+ 
+}
+.about--content{
+margin: 0 auto;
+text-align: center;
+padding-top: 250px;
+width: 500px;
+
+}
+.about p{
+
+font-family: Fira Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+color: rgba(0, 0, 0, 0.6);
+margin-top: 30px;
+
+}
+
+
+
+.grid{
+
+ grid-column: 1/5;
+ grid-row: 6;
+ display: grid;
+ grid-template-columns: 348px 348px  348px ;
+ /* grid-template-rows: 250px 250px 250px; */
+
+}
+
+.grid .text, .grid h1 {
+ /* margin: 0 auto; */
+ font-family: Fira Sans;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 17px;
+ line-height: 20px;
+margin-top: 100px;
+margin-bottom: 100px;
+/* align-items: center; */
+text-align: center;
+color: rgba(0, 0, 0, 0.7);
+}
+.grid .number{
+font-family: Frank Ruhl Libre;
+font-style: normal;
+font-weight: 900;
+font-size: 35px;
+color: rgba(0, 0, 0, 0.4);
+padding-top: 15px;
+padding-left: 15px;
+}
+
+.take--me--up{
+  margin-top: 0;
+  background: #A9A19E;
+  grid-column: 1/5;
+  grid-row: 7;
+  height: 50px;
+  text-align: center;
+}
+.take--me--up p{
+font-family: Fira Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 0px;
+color: rgba(0, 0, 0, 0.7);
+}
+.footer{
+  /* background: #777574; */
+  grid-column: 1/5;
+  grid-row: 8;
+  height: 340px;
+}
+
+footer img{
+  width: 1045px;
+}
